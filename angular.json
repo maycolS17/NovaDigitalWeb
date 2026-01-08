@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "63aa9b44-0102-4c87-b306-01624808cd54"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -22,10 +23,33 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/custom.css",
+              "src/assets/css/fontawesome.css",
+              "src/assets/css/fontawesome.min.css",
+              "src/assets/css/slick-theme.css",
+              "src/assets/css/slick-theme.min.css",
+              "src/assets/css/slick.min.css",
+              "src/assets/css/templatemo.css",
+              "src/assets/css/templatemo.min.css"
+            ],
+            "scripts": [
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/jquery-1.11.0.min.js",
+              "src/assets/js/jquery-migrate-1.2.1.min.js",
+              "src/assets/js/slick.min.js",
+              "src/assets/js/templatemo.js",
+              "src/assets/js/templatemo.min.js"
             ]
           },
           "configurations": {
