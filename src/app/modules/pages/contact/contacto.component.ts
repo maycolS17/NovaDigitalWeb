@@ -3,7 +3,7 @@ import { FormsModule } from "@angular/forms";
 
 @Component({
     selector: "app-contacto",
-    templateUrl: "./contacto.Component.html",
+    templateUrl: "./contacto.component.html",
     standalone: true,
     imports: [FormsModule],
 })
